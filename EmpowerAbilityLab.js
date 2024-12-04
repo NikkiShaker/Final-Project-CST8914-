@@ -215,8 +215,13 @@ document.getElementById(scheduleFormID).addEventListener('submit', function(even
 
 });
 
-
-
+document.querySelectorAll('input[type="checkbox"]').forEach((checkbox) => {
+    checkbox.addEventListener("keydown", (event) => {
+        if (event.key === "Enter") {
+            event.preventDefault(); 
+        }
+    });
+});
 
 // Function: Validate all required fields for the "Schedule a Call" Page form
 function validateFormCall(listofErrors){
