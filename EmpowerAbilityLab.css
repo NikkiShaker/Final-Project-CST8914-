@@ -3,11 +3,11 @@
     color: #007bff;
     text-decoration: underline;
 }
-/*
+
 .nav-link.active:focus, .header-and-footer-background:focus, a:focus {
      outline: 3px solid red;
     outline-offset: 2px;
-}*/
+}
 
 .header-and-footer-background {
     background-color: #737373; /* Dark gray for better contrast */
@@ -143,6 +143,24 @@ th {
 
 /* Specific focus style for buttons */
 :focus {
+    outline: 3px solid red;
+    outline-offset: 2px;
+}
+
+/* Focus indicator for buttons with a dashed style */
+button:focus {
+    outline: 3px solid red;
+    outline-offset: 2px;
+}
+
+/* Focus indicator for input fields */
+input:focus, select:focus, textarea:focus {
+    outline: 3px solid red;
+    outline-offset: 2px;
+}
+
+/* Focus indicator for links */
+a:focus {
     outline: 3px solid red;
     outline-offset: 2px;
 }
