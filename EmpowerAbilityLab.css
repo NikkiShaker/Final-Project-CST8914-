@@ -4,7 +4,7 @@
     text-decoration: underline;
 }
 
-.nav-link.active:focus, .header-and-footer-background:focus, a:focus {
+.nav-link.active:focus, .header-and-footer-background:focus, a:focus, .header-and-footer-background:focus, .header-and-footer-background a:focus, .footer p:focus, .required:focus {
      outline: 3px solid red;
     outline-offset: 2px;
 }
