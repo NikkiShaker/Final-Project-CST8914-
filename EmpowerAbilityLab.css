@@ -140,3 +140,21 @@ th {
     outline: 3px solid red; /* Specify the color of the focus indicator here */
     outline-offset: 2px; /* Optional: Adds space between the outline and the element */
 }
+
+/* Specific focus style for buttons */
+button:focus {
+    outline: 3px solid red;
+    outline-offset: 2px;
+}
+
+/* Specific focus style for input fields */
+input:focus, select:focus, textarea:focus {
+    outline:  3px solid red;
+    outline-offset: 2px;
+}
+
+/* Specific focus style for links */
+a:focus {
+    outline: 2px solid #98c1fe;
+    outline-offset: 2px;
+}
