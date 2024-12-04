@@ -159,6 +159,11 @@ input:focus, select:focus, textarea:focus {
     outline-offset: 2px;
 }
 
+nav:focus {
+    outline: 3px solid red;
+    outline-offset: 2px;    
+}
+
 /* Focus indicator for links */
 a:focus {
     outline: 3px solid red;
