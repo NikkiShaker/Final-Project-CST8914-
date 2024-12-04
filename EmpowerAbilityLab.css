@@ -142,19 +142,7 @@ th {
 }
 
 /* Specific focus style for buttons */
-button:focus {
+:focus {
     outline: 3px solid red;
-    outline-offset: 2px;
-}
-
-/* Specific focus style for input fields */
-input:focus, select:focus, textarea:focus {
-    outline:  3px solid red;
-    outline-offset: 2px;
-}
-
-/* Specific focus style for links */
-a:focus {
-    outline: 2px solid red;
     outline-offset: 2px;
 }
