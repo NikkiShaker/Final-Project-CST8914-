@@ -4,6 +4,11 @@
     text-decoration: underline;
 }
 
+:focus {
+    outline: 3px solid red; /* Specify the color of the focus indicator here */
+    outline-offset: 2px; /* Optional: Adds space between the outline and the element */
+}
+
 .header-and-footer-background {
     background-color: #737373; /* Dark gray for better contrast */
     color: #FFFFFF; /* White text for the navbar */
