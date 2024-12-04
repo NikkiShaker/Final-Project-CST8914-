@@ -3,6 +3,11 @@
     color: #007bff;
     text-decoration: underline;
 }
+/*
+.nav-link.active:focus, .header-and-footer-background:focus, a:focus {
+     outline: 3px solid red;
+    outline-offset: 2px;
+}*/
 
 .header-and-footer-background {
     background-color: #737373; /* Dark gray for better contrast */
@@ -134,11 +139,6 @@ th {
 
 .collapse.show {
     display: block;
-}
-
-:focus {
-    outline: 3px solid red; /* Specify the color of the focus indicator here */
-    outline-offset: 2px; /* Optional: Adds space between the outline and the element */
 }
 
 /* Specific focus style for buttons */
